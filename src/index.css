@@ -1,13 +1,106 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.navbar{
+  background-color: #fff !important;
 }
+
+.container-fluid .navbar-brand{
+  color: blueviolet;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.navbar-collapse ul{
+  margin-left: auto;
+}
+
+.navbar .nav-link{
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.menu_active{
+  font-weight: bolder;
+  border-bottom: 2px solid #565387;
+}
+
+.navbar .nav-link:hover{
+  color: red !important;
+}
+
+.brand_name{
+  color: orangered;
+}
+
+
+#header{
+  height: 86vh;
+  width: 100%;
+}
+
+
+.btn_start{
+  padding: 10px 20px;
+  border:2px solid black;
+  text-decoration: none;
+  background-color: rgba(128, 255, 0, 0.511);
+  border-radius: 50px;
+  transition: 1.3s;
+}
+
+.btn_start:hover{
+  background-color: coral;
+  color:white;
+}
+
+.header-img{
+  text-align: right;
+}
+
+/* .header-img .animated{
+  animation: up-down 0.7s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(15px);
+  }100%{
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes up-down{
+  
+  0%{
+    transform: translateY(15px);
+  }100%{
+    transform: translateY(-15px);
+  }
+} */
+
+
+.card img{
+  height: 30vh;
+  width: 100%;
+}
+
+span{
+  padding: 10px 20px;
+  border: 2px solid black;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: #565387;
+  color: black;
+}
+
+
+
+
+
+
